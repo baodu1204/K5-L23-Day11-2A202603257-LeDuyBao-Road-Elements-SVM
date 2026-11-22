@@ -1,0 +1,50 @@
+{
+  "manifest": "road-delivery/1",
+  "format": "CVAT for images 1.1",
+  "guideline": "Road v1.0",
+  "name": "Bao",
+  "revision": 1,
+  "created_at": "2026-11-22T03:59:20+00:00",
+  "files": [
+    {
+      "file": "Bao-front.zip",
+      "bytes": 70893,
+      "sha256": "b7ac14b1ed3def3bad12a788f18f6ddb8e05a1a73aa33e0fa2d8649ca8912e9d",
+      "contains_images": false,
+      "images": 16,
+      "images_unlabelled": 0,
+      "images_all_tags": 16,
+      "shapes_by_label": {
+        "crosswalk": 8,
+        "drivable": 35,
+        "lane": 43,
+        "road_curb": 5,
+        "traffic_light": 39,
+        "traffic_sign": 38
+      }
+    },
+    {
+      "file": "Bao-fisheye.zip",
+      "bytes": 30094,
+      "sha256": "d36bdff9776b4c4bee8cb427665822ae11e99ccaf87a455cf2c945703e09951a",
+      "contains_images": false,
+      "images": 12,
+      "images_unlabelled": 0,
+      "images_all_tags": 12,
+      "shapes_by_label": {
+        "crosswalk": 14,
+        "drivable": 13,
+        "lane": 7,
+        "road_curb": 7,
+        "traffic_light": 5,
+        "traffic_sign": 6
+      }
+    }
+  ],
+  "lint": {
+    "nặng": 5,
+    "chính": 0,
+    "nhẹ": 7
+  },
+  "note": "Tạo bởi road_check lint. Mô tả file đã gửi, không phải kết luận chất lượng."
+}
